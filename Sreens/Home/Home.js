@@ -22,28 +22,44 @@ const Home = ({navigation}) => {
             
             <TouchableOpacity onPress={() => {
               navigation.navigate('Hotel')
-            }} style={styles.iconsbutton}><Fontisto name="hotel" size={44} color="#cc0000" /></TouchableOpacity>
+            }} style={styles.iconsbutton}><Fontisto name="hotel" size={44} color="#cc0000" />
+            <Text style={{textAlign: 'center', fontSize: 15, fontWeight: 'bold', color: '#404040'}}>Hotel</Text>
+            </TouchableOpacity>
             <TouchableOpacity onPress={() => {
               navigation.navigate('Tour')
-            }} style={styles.iconsbutton}><MaterialIcons name="tour" size={44} color="#cc0000" /></TouchableOpacity>
+            }} style={styles.iconsbutton}><MaterialIcons name="tour" size={44} color="#cc0000" />
+            <Text style={{textAlign: 'center', fontSize: 15, fontWeight: 'bold', color: '#404040'}}>Tour</Text>
+            </TouchableOpacity>
             <TouchableOpacity onPress={() => {
               navigation.navigate('Car')
-            }} style={styles.iconsbutton}><FontAwesome name="car" size={44} color="#cc0000" /></TouchableOpacity>
+            }} style={styles.iconsbutton}><FontAwesome name="car" size={44} color="#cc0000" />
+            <Text style={{textAlign: 'center', fontSize: 15, fontWeight: 'bold', color: '#404040'}}>Car</Text>
+            </TouchableOpacity>
             <TouchableOpacity onPress={() => {
               navigation.navigate('Flight')
-            }} style={styles.iconsbutton}><MaterialIcons name="flight" size={44} color="#cc0000" /></TouchableOpacity> 
+            }} style={styles.iconsbutton}><MaterialIcons name="flight" size={44} color="#cc0000" />
+            <Text style={{textAlign: 'center', fontSize: 15, fontWeight: 'bold', color: '#404040'}}>Flight</Text>
+            </TouchableOpacity> 
             <TouchableOpacity onPress={() => {
               navigation.navigate('Cruise')
-            }} style={styles.iconsbutton}><FontAwesome name="ship"size={44} color="#cc0000" /></TouchableOpacity>
+            }} style={styles.iconsbutton}><FontAwesome name="ship"size={44} color="#cc0000" />
+            <Text style={{textAlign: 'center', fontSize: 15, fontWeight: 'bold', color: '#404040'}}>Cruise</Text>
+            </TouchableOpacity>
             <TouchableOpacity onPress={() => {
               navigation.navigate('Events')
-            }} style={styles.iconsbutton}><MaterialIcons name="event-note" size={44} color="#cc0000" /></TouchableOpacity>
+            }} style={styles.iconsbutton}><MaterialIcons name="event-note" size={44} color="#cc0000" />
+            <Text style={{textAlign: 'center', fontSize: 15, fontWeight: 'bold', color: '#404040'}}>Events</Text>
+            </TouchableOpacity>
             <TouchableOpacity onPress={() => {
               navigation.navigate('Bus')
-            }} style={styles.iconsbutton}><Ionicons name="bus" size={44} color="#cc0000" /></TouchableOpacity>
+            }} style={styles.iconsbutton}><Ionicons name="bus" size={44} color="#cc0000" />
+            <Text style={{textAlign: 'center', fontSize: 15, fontWeight: 'bold', color: '#404040'}}>Bus</Text>
+            </TouchableOpacity> 
             <TouchableOpacity onPress={() => {
               navigation.navigate('Home')
-            }} style={styles.iconsbutton}><Feather name="more-horizontal" size={44} color="#cc0000" /></TouchableOpacity>
+            }} style={styles.iconsbutton}><Feather name="more-horizontal" size={44} color="#cc0000" />
+            <Text style={{textAlign: 'center', fontSize: 15, fontWeight: 'bold', color: '#404040'}}>More</Text>
+            </TouchableOpacity>
           </View>
         </View>
 
@@ -68,7 +84,7 @@ const styles = StyleSheet.create({
   },
   iconsbutton:{ 
     marginHorizontal: 15,
-    marginVertical: 30,
+    marginVertical: 25,
   },
   homecontainer:{
     width: 350,

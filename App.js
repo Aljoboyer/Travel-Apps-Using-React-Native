@@ -29,7 +29,17 @@ export default function App() {
         <Stack.Screen name='Hotel' component={Hotel}/>
         <Stack.Screen name='Tour' component={Tour}/>
         <Stack.Screen name='Car' component={Car}/>
-        <Stack.Screen name='Flight' component={Flight}/>
+        <Stack.Screen 
+         options={{
+          title: 'Search Flight',
+          headerTintColor: '#737373',
+          headerTitleStyle: {
+            fontWeight: 'bold',
+            fontSize: 20,
+            marginHorizontal: 60
+          },
+        }}
+        name='Flight' component={Flight}/>
         <Stack.Screen name='Cruise' component={Cruise}/>
         <Stack.Screen name='Events' component={Events}/>
         <Stack.Screen name='Bus' component={Bus}/>
